@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 
+import BookList from '../containers/book-list';
+
 class App extends Component {
   render() {
     return (
       <div>
-        <h2 className="u-text-center">
-          Create your own components and use them in this template.
-        </h2>
+        <BookList />
       </div>
     );
   }
